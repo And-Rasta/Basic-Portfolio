@@ -1,5 +1,6 @@
 header {
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #4aaaa5;
     background: #ffffff;
     text-align: center;
@@ -9,11 +10,19 @@ header {
 }
 
 body {
+    background-size: contain;
     background-image: url("../images/pentagon.png");
     padding: 0px;
     margin: 0px;
 }
 
+#btmspacer {
+    padding: 20px 0px 20px 0px;
+}
+
+#footertxt {
+    text-align: center;
+}
 
 h1 {
     background-color: #4aaaa5;
@@ -83,7 +92,14 @@ p {
 
 footer {
     background-color: #666666;
-    float: clear;  
+    /* float: clear;   */
+    border-top: 7px solid #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: grey;
 }
 
 nav {
