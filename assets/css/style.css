@@ -108,6 +108,7 @@ nav {
     font-size: 10px
 }
 
+
 input {
     line-height: 150%;
     height: 75%;
@@ -137,3 +138,64 @@ img.bounded {
     padding: 15px;
 }
 
+h4 {
+    font-weight: 600;
+    color:#4aaaa5;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background: #666666;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.box_title {
+    color: #ffffff;
+    height: 50px;
+    background: #4aaaa5;
+    margin-top: 140px;
+    text-align: center;
+    z-index: 5;
+}
+
+.box_title p{
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.box_title:hover {
+    background: #1c403e;
+}
+
+#hangman_box {
+    background: url("../images/hangman.jpg");
+    z-index: 0;
+}
+
+#rpg_game_box {
+    background: url("../images/RPG.jpg");
+    z-index: 0;
+}
+
+#trivia_box {
+    background: url("../images/trivia.jpg");
+    z-index: 0;
+}
+
+#rutgers_info_widget_box {
+    background: url("../images/rutgers.jpg");
+    z-index: 0;
+}
+
+#rock_paper_scissors_box{
+    background: url("../images/RPSLS.jpg");
+    z-index: 0;
+}
