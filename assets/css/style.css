@@ -123,6 +123,13 @@ img.bounded {
     height: 200px;
 }
 
+#profile_pic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+
 .container {
     position: relative;
     margin: auto;
